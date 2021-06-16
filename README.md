@@ -16,7 +16,7 @@
 - Grid Layout
 - БЭМ Nested
 
-# Посмотреть проект можно по ссылке: https://fuxory.github.io/russian-travel/
+# Посмотреть проект можно по ссылке: https://fuxory.github.io/mesto/
 
 ## Спасибо, что прочитали readme.
 
