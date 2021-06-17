@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5829a65a-6749-4bc0-b118-7b1ebcfb7ee9" name="mesto" comment="Try fix github-pages" />
+    <list default="true" id="5829a65a-6749-4bc0-b118-7b1ebcfb7ee9" name="mesto" comment="Try fix github-pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/elemenets/__button-like/elements__button-like-container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/elemenets/__button-like/elements__button-like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/elemenets/__button-like/elements__button-like.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/elemenets/__button-like/elements__button-like_active.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/elemenets/__button-like/_active/elements__button-like_active.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__button-save/popup__button-save.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__button-save/popup__button-save.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__field/popup__field.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__field/popup__field.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__opened/popup__opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup__opened.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__add-button/profile__add-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__add-button/profile__add-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__avatar-container/profile__avatar-container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__avatar/profile__avatar.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__avatar/profile__avatar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__button-edit/profile__button-edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__button-edit/profile__button-edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/inter.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/inter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+    </list>
     <list id="546dc1b9-584f-442e-8403-4007b9d752b7" name="Default Changelist" comment="Merge branches" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +70,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fuxory\dev\mesto\blocks\elemenets\__button-like\_active" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/script.js" working-dir="$PROJECT_DIR$/src/scripts">
       <method v="2" />
@@ -77,6 +102,8 @@
       <workItem from="1623862328360" duration="5741000" />
       <workItem from="1623868164748" duration="13000" />
       <workItem from="1623868179554" duration="1475000" />
+      <workItem from="1623871837330" duration="185000" />
+      <workItem from="1623947108392" duration="5588000" />
     </task>
     <servers />
   </component>

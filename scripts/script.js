@@ -1,7 +1,7 @@
 const popupElement = document.querySelector('.popup');
 const popupButtonClose = popupElement.querySelector('.popup__button-close');
-const editName = popupElement.querySelector('.popup__field_name');
-const editJob = popupElement.querySelector('.popup__field_profession');
+const editName = popupElement.querySelector('.popup__field_name_name');
+const editJob = popupElement.querySelector('.popup__field_name_profession');
 const profile = document.querySelector('.profile');
 const profileName = profile.querySelector('.profile__name');
 const profileJob = profile.querySelector('.profile__job');
@@ -11,11 +11,11 @@ const popupButtonOpen = profile.querySelector('.profile__button-edit');
 const openPopup = function () {
   editName.value = profileName.textContent;
   editJob.value = profileJob.textContent;
-  popupElement.classList.add('popup__opened');
+  popupElement.classList.add('popup_opened');
 }
 
 const closePopup = function () {
-  popupElement.classList.remove('popup__opened');
+  popupElement.classList.remove('popup_opened');
 }
 
 const closePopupClick = function (event) {

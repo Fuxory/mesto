@@ -9,6 +9,14 @@
   transition: opacity 0.6s linear;
   }
 
+@media screen and (max-width: 560px) {
+  .profile__button-edit {
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+    }
+  }
+
 .profile__button-edit:hover {
   opacity: 0.6;
   }
