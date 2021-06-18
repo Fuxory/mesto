@@ -10,77 +10,77 @@
 </head>
 
 <body class="page">
-  <div class="page__container">
-    <header class="header">
-      <img class="header__logo" alt="Логотип шапки" src="./images/logo__header.svg">
-    </header>
+<div class="page__container">
+  <header class="header">
+    <img class="header__logo" alt="Логотип шапки" src="./images/logo__header.svg">
+  </header>
 
-    <main class="main">
-      <section class="profile">
-          <img class="profile__avatar" alt="Аватар пользователя" src="./images/profile__avatar.svg">
-        <div class="profile__info">
-          <div class="profile__edit">
-            <h1 class="profile__name">Жак-Ив Кусто</h1>
-            <button class="profile__button-edit" type="button"></button>
-          </div>
-          <p class="profile__job">Исследователь океана</p>
+  <main class="main">
+    <section class="profile">
+      <img class="profile__avatar" alt="Аватар пользователя" src="./images/profile__avatar.svg">
+      <div class="profile__info">
+        <div class="profile__edit">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__button-edit" type="button"></button>
         </div>
-        <button class="profile__add-button" type="button">
-          <img alt="Знак плюса" src="./images/plus.svg">
-        </button>
-      </section>
-
-      <section class="elements">
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/teatrspb.jpg">
-          <h3 class="elements__paragraph">Александринский театр</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/moscowcity.jpeg">
-          <h3 class="elements__paragraph">Москва Сити</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/bolshoiteatr.jpg">
-          <h3 class="elements__paragraph">Большой театр</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/lahtacentr.jpeg">
-          <h3 class="elements__paragraph">Лахта Центр</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/casinosochi.jpg">
-          <h3 class="elements__paragraph">Казино Сочи</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-        <div class="elements__card">
-          <img class="elements__photo" alt="Фото" src="./images/dominiontower.jpg">
-          <h3 class="elements__paragraph">Dominion Tower</h3>
-            <button class="elements__button-like" type="button"></button>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
-    </footer>
-
-    <div class="popup profile-popup">
-      <div class="popup__container">
-        <button class="popup__button-close" type="button"></button>
-        <h2 class="popup__heading">Редактировать профиль</h2>
-        <form class="popup__input">
-          <input class="popup__field popup__field_name_name" type="text" name="name" placeholder="Имя">
-          <input class="popup__field popup__field_name_profession" type="text" name="job" placeholder="Профессия">
-          <button class="popup__button-save" type="submit">Сохранить</button>
-        </form>
+        <p class="profile__job">Исследователь океана</p>
       </div>
-      <script src="./scripts/script.js"></script>
+      <button class="profile__add-button" type="button">
+        <img alt="Знак плюса" src="./images/plus.svg">
+      </button>
+    </section>
+
+    <section class="elements">
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/teatrspb.jpg">
+        <h3 class="elements__paragraph">Александринский театр</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/moscowcity.jpeg">
+        <h3 class="elements__paragraph">Москва Сити</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/bolshoiteatr.jpg">
+        <h3 class="elements__paragraph">Большой театр</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/lahtacentr.jpeg">
+        <h3 class="elements__paragraph">Лахта Центр</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/casinosochi.jpg">
+        <h3 class="elements__paragraph">Казино Сочи</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+      <div class="elements__card">
+        <img class="elements__photo" alt="Фото" src="./images/dominiontower.jpg">
+        <h3 class="elements__paragraph">Dominion Tower</h3>
+        <button class="elements__button-like" type="button"></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
+  </footer>
+
+  <div class="popup profile-popup">
+    <div class="popup__container">
+      <button class="popup__button-close" type="button"></button>
+      <h2 class="popup__heading">Редактировать профиль</h2>
+      <form class="popup__input">
+        <input class="popup__field popup__field_name_name" type="text" name="name" placeholder="Имя">
+        <input class="popup__field popup__field_name_profession" type="text" name="job" placeholder="Профессия">
+        <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
     </div>
+    <script src="./scripts/script.js"></script>
   </div>
+</div>
 </body>
 
 </html>

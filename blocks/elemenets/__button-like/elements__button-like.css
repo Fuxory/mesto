@@ -2,12 +2,10 @@
   width: 22px;
   height: 19px;
   border: 0;
-  background: no-repeat 50% url(../../../images/like.svg);
+  background: no-repeat center url(../../../images/like.svg);
   padding: 0;
   cursor: pointer;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 30px 20px 30px 0;
   transition: opacity 1s linear;
   outline: none;
   }
